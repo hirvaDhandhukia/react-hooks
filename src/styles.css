@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,3 +12,11 @@ code {
     monospace;
 }
 
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.star-rating {
+  font-size: 47px;
+}
