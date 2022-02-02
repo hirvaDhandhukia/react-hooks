@@ -7,7 +7,8 @@ import './styles.css';
 // import Useeffect from './components/UseEffect/Useeffect';
 // import FetchDataApi from './components/UseEffect/FetchDataApi';
 // import Usereducer from './components/UseReducer/Usereducer';
-import CheckBox from './components/UseReducer/CheckBox';
+// import CheckBox from './components/UseReducer/CheckBox';
+import Message from './components/UseReducer/Message';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Useeffect /> */}
       {/* <FetchDataApi /> */}
       {/* <Usereducer /> */}
-      <CheckBox />
+      {/* <CheckBox /> */}
+      <Message />
     </div>
   );
 }
