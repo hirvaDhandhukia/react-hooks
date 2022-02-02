@@ -22,7 +22,7 @@ function Useeffect() {
         console.log(`The user is: ${
             admin ? "admin":"not admin"
         }`);
-    })
+    }, [admin]);
 
     return (
         <section>

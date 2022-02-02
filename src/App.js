@@ -4,7 +4,8 @@ import './styles.css';
 // import UsestateInput from "./components/UseState/UsestateInput";
 // import ComponentTree from "./components/UseState/ComponentTree";
 
-import Useeffect from './components/UseEffect/Useeffect';
+// import Useeffect from './components/UseEffect/Useeffect';
+import FetchDataApi from './components/UseEffect/FetchDataApi';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <UsestateInput />
       <ComponentTree /> */}
 
-      <Useeffect />
+      {/* <Useeffect /> */}
+      <FetchDataApi />
     </div>
   );
 }
