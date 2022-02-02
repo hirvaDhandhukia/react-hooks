@@ -6,10 +6,14 @@ import './styles.css';
 
 // import Useeffect from './components/UseEffect/Useeffect';
 // import FetchDataApi from './components/UseEffect/FetchDataApi';
+
 // import Usereducer from './components/UseReducer/Usereducer';
 // import CheckBox from './components/UseReducer/CheckBox';
 // import Message from './components/UseReducer/Message';
-import Useref from './components/UseRef/Useref';
+
+// import Useref from './components/UseRef/Useref';
+
+import ControledComponent from './components/ControledComponent';
 
 function App() {
   return (
@@ -27,7 +31,9 @@ function App() {
       {/* <CheckBox /> */}
       {/* <Message /> */}
 
-      <Useref />
+      {/* <Useref /> */}
+
+      <ControledComponent />
 
     </div>
   );
