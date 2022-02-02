@@ -16,3 +16,6 @@ function CreateContext() {
 }
 
 export default CreateContext;
+
+// que: data fetching with a fetch hook
+// que: building fetch component
