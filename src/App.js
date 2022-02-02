@@ -13,7 +13,9 @@ import './styles.css';
 
 // import Useref from './components/UseRef/Useref';
 
-import ControledComponent from './components/ControledComponent';
+// import ControledComponent from './components/ControledComponent';
+
+import CustomHookImplement from './components/CustomHookImplement';
 
 function App() {
   return (
@@ -33,7 +35,8 @@ function App() {
 
       {/* <Useref /> */}
 
-      <ControledComponent />
+      {/* <ControledComponent /> */}
+      <CustomHookImplement />
 
     </div>
   );
