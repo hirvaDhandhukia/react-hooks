@@ -5,7 +5,9 @@ import './styles.css';
 // import ComponentTree from "./components/UseState/ComponentTree";
 
 // import Useeffect from './components/UseEffect/Useeffect';
-import FetchDataApi from './components/UseEffect/FetchDataApi';
+// import FetchDataApi from './components/UseEffect/FetchDataApi';
+// import Usereducer from './components/UseReducer/Usereducer';
+import CheckBox from './components/UseReducer/CheckBox';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <ComponentTree /> */}
 
       {/* <Useeffect /> */}
-      <FetchDataApi />
+      {/* <FetchDataApi /> */}
+      {/* <Usereducer /> */}
+      <CheckBox />
     </div>
   );
 }
